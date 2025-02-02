@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Please Register</title>
+    <link rel="stylesheet" href="C:\Users\rosas\OneDrive\Desktop\cs112\Register!Style.css">
+    <script src="C:\Users\rosas\OneDrive\Desktop\cs112\Register!Script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Registration Form</h1>
+       <form id="registrationForm" onsubmit="showPopup(event)">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter First Name" required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Create your password" required>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+</form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+
+</body>
+</html>
+

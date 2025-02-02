@@ -1,0 +1,18 @@
+*{
+	font-family:Arial .Verdana. sans-serif;
+	color: #665544;
+	text-align: center;}
+
+}
+#nav, #feature, .article, #footer {
+	background-color: #efefef;
+	margin-top: 20xp;
+	padding: 10xp 0xp 5xp 0xp;
+}
+#feature, .article {
+	height: 100xp;
+}
+li {
+	display: inline;
+	padding: 5xp;
+}

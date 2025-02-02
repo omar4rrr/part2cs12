@@ -1,0 +1,100 @@
+* {
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background: crimson;
+            font-family: Calibri, sans-serif;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo a {
+            font-size: 35px;
+            font-weight: 600;
+            color: white;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            margin-right: 25px;
+        }
+
+        li a {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .right-section {
+            display: flex;
+            align-items: center;
+        }
+
+        .phone {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        button {
+            background-color: blue;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        button a {
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .main-container {
+            padding: 20px;
+            text-align: center;
+            font-family: Calibri, sans-serif;
+        }
+
+        img.align-center {
+            display: block;
+            margin: 0 auto;
+        }
+
+        img.medium {
+            width: 250px;
+            height: 250px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .button-group {
+            margin-top: 20px;
+        }
+
+        .button-group button {
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .button-group button a {
+            color: white;
+            text-decoration: none;
+        }

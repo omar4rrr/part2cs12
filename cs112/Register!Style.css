@@ -1,0 +1,49 @@
+body {
+	background-color: purple; /* Purple background */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.container {
+	background-color: white;
+	padding:20px;
+	boarder-raduis:10px;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	text-align: center;
+
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+
+}
+input[type="text"], input[type="Email"], input[type="Password"] {
+  width: 100px;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background: white;
+
+}
+input[type="submit"], input[type="reset"]{
+	background-color: purple;
+	color: white;
+	border: none;
+	padding: 10px;
+	margin-top: 10px;
+	width: 100%;
+	cursor: pointer;
+	border-radius: 5px;
+}
+input[type="submit"] :hover, input[type="reset"]
